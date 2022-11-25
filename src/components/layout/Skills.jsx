@@ -1,61 +1,49 @@
 import React from "react";
+import { CSS_IMG, GIIHUB_IMG, HTML_IMG, JS_IMG, NEXTJS_IMG, REACT_IMG, TAILWIND_IMG } from "../../assets/images";
 
-import html from "../assets/html.png";
-import css from "../assets/css.png";
-import javascript from "../assets/javascript.png";
-import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
-import github from "../assets/github.png";
-import tailwind from "../assets/tailwind.png";
+
 
 const Skills = () => {
   const techs = [
     {
       id: 1,
-      src: html,
+      src: HTML_IMG,
       title: "HTML",
       style: "shadow-orange-500",
     },
     {
       id: 2,
-      src: css,
+      src: CSS_IMG,
       title: "CSS",
       style: "shadow-blue-500",
     },
     {
       id: 3,
-      src: javascript,
+      src: JS_IMG,
       title: "JavaScript",
       style: "shadow-yellow-500",
     },
     {
       id: 4,
-      src: reactImage,
+      src: REACT_IMG,
       title: "React",
       style: "shadow-blue-600",
     },
     {
       id: 5,
-      src: tailwind,
+      src: TAILWIND_IMG,
       title: "Tailwind",
       style: "shadow-sky-400",
     },
     {
       id: 6,
-      src: nextjs,
+      src: NEXTJS_IMG,
       title: "Next JS",
       style: "shadow-white",
     },
-    {
-      id: 7,
-      src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
-    },
-    {
+        {
       id: 8,
-      src: github,
+      src: GIIHUB_IMG,
       title: "GitHub",
       style: "shadow-gray-400",
     },
