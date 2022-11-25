@@ -16,11 +16,11 @@ const NavBar = () => {
     },
     {
       id: 3,
-      link: "portfolio",
+      link: "portifolio",
     },
     {
       id: 4,
-      link: "Skills",
+      link: "skills",
     },
     {
       id: 5,
@@ -31,7 +31,7 @@ const NavBar = () => {
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
       <div>
-        <h1 className="text-5xl font-signature ml-2">Yash</h1>
+        <h1 className="text-5xl font-signature ml-2">Mwero </h1>
       </div>
 
       <ul className="hidden md:flex">
@@ -65,7 +65,7 @@ const NavBar = () => {
                 onClick={() => setNav(!nav)}
                 to={link}
                 smooth
-                duration={500}
+                duration={800}
               >
                 {link}
               </Link>
