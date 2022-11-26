@@ -20,7 +20,7 @@ jobs:
         run: |
           npm install -f         
 
-      - name: 🔨 Buil the App
+      - name: 🔨 Build the App
         run: |
           npm run build
            
