@@ -22,12 +22,12 @@ jobs:
           
       - name: 🔨 Find Vulnerabilities
         run: |
-          npm audit --level_critical
+          npm audit --audit-level=critical
       
 
       - name: 🔨 Fix Vulnerabilities
         run: |
-          npm audit fix --force --level_critical
+          npm audit fix --audit-level=critical --force
          
 
       - name: 🔨 Buil the App
