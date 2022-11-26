@@ -18,10 +18,17 @@ jobs:
 
       - name: 🔨 pkg installation and build
         run: |
-          npm install -f
-          npm run format
-          npm run fix
+          npm install 
+          
+      - name: 🔨 Fix Vulnerabilities
+        run: |
+          npm audit fix 
+
+      - name: 🔨 Buil the App
+        run: |
           npm run build
+           
+
   
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
