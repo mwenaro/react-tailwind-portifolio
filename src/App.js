@@ -1,6 +1,6 @@
 
 
-import { NavBar, SocialLinks } from "./components/layout";
+import { NavBar } from "./components/layout";
 
 import { About, Contact, Home, Portifolio, Skills } from "./pages";
 
@@ -13,8 +13,7 @@ function App() {
       <Portifolio />
       <Skills/>
       <Contact />
-      <SocialLinks />
-    </div>
+        </div>
   );
 }
 

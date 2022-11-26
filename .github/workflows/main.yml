@@ -18,17 +18,7 @@ jobs:
 
       - name: 🔨 pkg installation and build
         run: |
-          npm install -f
-          
-      - name: 🔨 Find Vulnerabilities
-        run: |
-          npm audit --audit-level=critical
-      
-
-      - name: 🔨 Fix Vulnerabilities
-        run: |
-          npm audit fix --audit-level=critical --force
-         
+          npm install -f         
 
       - name: 🔨 Buil the App
         run: |
