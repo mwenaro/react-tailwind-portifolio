@@ -9,7 +9,7 @@ const About = () => {
 
         <div>
           <p className="text-xl">
-My name is Mwero Abdalla. A full-stack developer with 2+ years of experince.
+My name is Mwero Abdalla. A full-stack developer with 1.5+ years of experince.
 
 
           </p>
