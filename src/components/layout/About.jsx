@@ -8,13 +8,13 @@ const About = () => {
         <SectionTitleCard title={"About"} />
 
         <div>
-          <p className="text-xl">
-My name is Mwero Abdalla. A full-stack developer with 1.5+ years of experince.
+          <p className="text-base md:text-lg font-medium">
+My name is Mwero Abdalla. A full-stack developer with 1.5+ years of experience.
 
 
           </p>
 
-          <p className="text-xl">
+          <p className="text-base md:text-lg font-medium">
 
           </p>
         </div>
