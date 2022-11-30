@@ -39,4 +39,5 @@ jobs:
       - name: Delete unwanted files
         run: |
           rm -rf ./build
+          rm -rf ./deploy.zip
           
