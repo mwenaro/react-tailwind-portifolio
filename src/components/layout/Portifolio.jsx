@@ -34,13 +34,13 @@ const Portifolio = () => {
   return (
     <div
       name="portifolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div className="flex flex-col justify-center ">
         
         <SectionTitleCard title={"Portifolio"} subTitle ={"Check out some of my work right here"} />
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 ">
           {portifolios.map(({ id, src }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img

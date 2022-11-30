@@ -1,5 +1,3 @@
-
-
 import { NavBar } from "./components/layout";
 
 import { About, Contact, Home, Portifolio, Skills } from "./pages";
@@ -11,9 +9,9 @@ function App() {
       <Home />
       <About />
       <Portifolio />
-      <Skills/>
+      <Skills />
       <Contact />
-        </div>
+    </div>
   );
 }
 

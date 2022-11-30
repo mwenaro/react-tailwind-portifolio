@@ -7,14 +7,21 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 bg-opacity-40"
+
     >
-      <div className="  mx-auto flex flex-col items-center justify-center h-full px-4 ">
-      <div>
-      <h2 className="text-3xl sm:text-5xl font-bold text-white py-5 text-center">
-            Hello ! I'm Mwero Abdalla
+      <div className=" flex flex-col items-center justify-center">
+      <div className=" pt-20">
+
+      <h2 className=" ">
+       <span className="text-xl md:text-2xl  font-bold py-2 text-white ">  Hello!  </span>            
+      <span className=" ml-3 text-xs md:text-xl  font-extrabold py-2  text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+            I'm,
+          </span>
           </h2>
-          <h4 className="text-2xl sm:text-3xl font-light text-white text-center">
+      <h2 className="text-3xl sm:text-7xl font-cursive font-bold text-white py-3 text-center ">
+            Mwero Abdalla
+          </h2>
+          <h4 className="text-2xl sm:text-3xl font-light text-white text-center text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400">
              A Passionate Full Stack Developer
           </h4>
           
@@ -24,8 +31,7 @@ const Home = () => {
 
           <div className="flex flex-col justify-center items-center">
           <p className="text-gray-500 py-4 max-w-md ">
-            I have 1.5+ years of experience developing beautiful and reponsive web and desktop applications using React,Tailwind, PHP, MySQL, SQLite and Node.
-          </p> 
+            I have 1.5+ years of experience developing beautiful and reponsive web and desktop applications using React,Tailwind, PHP, MySQL, SQLite and Node ...          </p> 
             <Link
               to="portifolio"
               smooth

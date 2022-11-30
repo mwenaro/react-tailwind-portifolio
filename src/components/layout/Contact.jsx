@@ -3,21 +3,21 @@ import { SectionTitleCard } from "../modules/cards";
 
 const Contact = () => {
   return (
-    <div
-      name="contact"
-      className="w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white"
-    >
-      <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
-        
-
-        <SectionTitleCard title={"Contact"} subTitle ={"Submit the form below to get in touch with me"} />
+    <div name="contact">
+      <div className="flex flex-col justify-center  ">
+        <SectionTitleCard
+          title={"Contact"}
+          subTitle={"Submit the form below to get in touch with me"}
+        />
 
         <div className=" flex justify-center items-center">
           <form
-            action="https://getform.io/f/61c99527-2b15-42cf-9b55-ad37d2f7daa6"
+            action="https://getform.io/f/3e1918e0-8173-4738-afd1-4e5d7948191f"
             method="POST"
             className=" flex flex-col w-full md:w-1/2"
           >
+            {/* <!-- add hidden Honeypot input to prevent spams --> */}
+            <input type="hidden" name="_gotcha" className="hidden" />
             <input
               type="text"
               name="name"
