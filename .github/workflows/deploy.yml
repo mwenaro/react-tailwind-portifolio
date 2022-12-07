@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: "18"
 
-      - name: 🔨 pkg installation and build
+      - name: 🔨  installation and build
         run: |
           npm install -f         
 
