@@ -31,7 +31,7 @@ const Home = () => {
 
           <div className="flex flex-col justify-center items-center">
           <p className="text-gray-500 py-4 max-w-md ">
-            I have 1.5+ years of experience developing beautiful and reponsive web and desktop applications using React,Tailwind, PHP, MySQL, SQLite and Node ...          </p> 
+            I have 3+ years of experience developing beautiful and reponsive web and desktop applications using React,Tailwind, PHP, MySQL, SQLite and Node ...          </p> 
             <Link
               to="portifolio"
               smooth
