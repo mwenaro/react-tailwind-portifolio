@@ -7,7 +7,7 @@ const About = () => {
       <div className="flex flex-col justify-center ">
         <SectionTitleCard title={"About"} />
 
-        <div className="mx-auto w-fit">
+        <div className="mx-auto w-fit text-white">
           <p className="text-base md:text-lg font-semibold max-w-ld p-3  tracking-wide">
             My name is Mwero Abdalla. I am a full-stack developer with 3+ years
             of experience creating web applications using React, TypeScript,
