@@ -1,7 +1,7 @@
 import { NavBar } from "./components/layout";
 
 import { About, Contact, Home, Portifolio, Skills } from "./pages";
-import Payment from "./pages/Payment";
+
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Portifolio />
       <Skills />
       <Contact />
-      <Payment />
+      
     </div>
   );
 }
