@@ -5,10 +5,10 @@ export default class Payment extends Component {
         super(props);
       
         const mpesa = new Mpesa({
-          consumerKey: "<your consumer key>",
-          consumerSecret: "<your consumer secret>",
-          environment: "sandbox"
-        });
+            consumerKey: process.env.API_CONSUMER_KEY,
+            consumerSecret: process.env.API_CONSUMER_SECRET,
+            environment: "sandbox"
+          });
       }
       
       handleSubmit = async (event) => {
